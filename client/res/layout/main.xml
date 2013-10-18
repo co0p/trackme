@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:orientation="vertical" android:layout_height="wrap_content">
+    <TextView android:text="@string/label_text" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+<EditText android:layout_width="fill_parent"
+	android:layout_weight="1" 
+	android:id="@+id/inputText"
+	android:lines="5"
+	android:singleLine="false" android:layout_height="wrap_content" android:text="@string/empty_string">
+
+</EditText>
+<Button android:id="@+id/status_button" android:layout_weight="1"  android:text="@string/label_button" android:layout_width="match_parent" android:layout_height="match_parent"></Button>
+<TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRow3">
+        <TextView android:id="@+id/label_longitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_string_longitude"></TextView>
+        <TextView android:id="@+id/value_longitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_string"></TextView>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRow4">
+        <TextView android:id="@+id/label_latitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_string_latitude"></TextView>
+        <TextView android:id="@+id/value_latitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_string"></TextView>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRow5">
+        <TextView android:id="@+id/label_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_string_speed"></TextView>
+        <TextView android:id="@+id/value_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_string"></TextView>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRow2">
+        <TextView android:id="@+id/label_altitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_string_altitude"></TextView>
+        <TextView android:id="@+id/value_altitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_string"></TextView>
+    </TableRow>
+</TableLayout>
+<TableRow android:layout_width="match_parent" android:id="@+id/tableRow1" android:layout_height="wrap_content"></TableRow>
+<Button android:layout_width="match_parent" android:id="@+id/exit_button" android:text="@string/label_exit" android:layout_height="wrap_content"></Button>
+<TextView android:id="@+id/status_Label" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/label_string_status" android:textStyle="bold"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/label_status" android:id="@+id/statusText" android:lines="1"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_string_gps" android:id="@+id/gpsStatusText" android:textStyle="bold"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_string" android:id="@+id/status_gps"></TextView>
+</LinearLayout>

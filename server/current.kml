@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <NetworkLink>
+      <name>Random Placemark</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description>the current track</description>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>http://www.co0p.org/trackme/current.php</href>
+      </Link>
+    </NetworkLink>
+</kml>

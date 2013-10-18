@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackMe</string>
+    <string name="label_text">What are you doing ?</string>
+    <string name="label_status">program loaded.</string>
+    <string name="label_button">Update your status</string>
+    <string name="label_exit">Exit</string>
+
+    <string name="label_string_time">Time:</string>
+     <string name="label_string_speed">Speed:</string>
+    <string name="label_string_altitude">Altitude:</string>
+    <string name="label_string_longitude">Longitude:</string>
+    <string name="label_string_latitude">Latitude:</string>
+    <string name="label_string_status" ><ul>last messages:</ul></string>
+    <string name="label_string_gps" ><ul>Gps status:</ul></string>
+    
+    <string name="empty_string"></string>
+    
+</resources>
